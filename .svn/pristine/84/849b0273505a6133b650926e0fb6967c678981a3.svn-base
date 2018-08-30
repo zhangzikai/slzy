@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  <filter>
+    <filter-name>EncodeFilter</filter-name>
+    <filter-class>com.sx.filter.EncodeFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncodeFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <servlet-name>spring</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spring</servlet-name>
+    <url-pattern>*.jhtml</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>upload</servlet-name>
+    <servlet-class>com.sx.filter.Upload</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>upload</servlet-name>
+    <url-pattern>/servlet/upload</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>arcgisTile</servlet-name>
+    <servlet-class>servlet.AgsOffTilesServiceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>arcgisTile</servlet-name>
+    <url-pattern>/tile/arcgisTile</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath*:*Context.xml</param-value>
+  </context-param>
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  <servlet>
+    <servlet-name>cgi</servlet-name>
+    <servlet-class>com.sx.controller.ProxyServlet</servlet-class>
+    <load-on-startup>5</load-on-startup>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReadExcelServlet</servlet-name>
+    <servlet-class>com.sx.controller.ReadExcelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cgi</servlet-name>
+    <url-pattern>/cgi/proxy.cgi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReadExcelServlet</servlet-name>
+    <url-pattern>/servlet/ReadExcel</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>AuthenticationFilter</filter-name>
+    <filter-class>com.sx.filter.AuthenticationFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>AuthenticationFilter</filter-name>
+    <url-pattern>*.jhtml</url-pattern>
+    <url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p" 
+       xmlns:context="http://www.springframework.org/schema/context"    
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">  
+  
+ <!--这是springmvc一种简单的请求方式，还有更多方式可以配置。这里的name就是用户   
+    可以在前台访问的路径。如访问http://localhost:8080/index.html，则会自动    
+    跳转到这个控制器里-->  
+ <!--  Test 1
+   <bean name="/index.html" class="cn.oyangk.web.action.IndexCtrl">  
+    </bean>   -->
+
+        <bean id="localeResolver" class="org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver">
+
+        </bean>
+
+ <!--  Test2
+        配置控制器的映射-->
+   <!--   
+    <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+                <property name="mappings">
+                    <props>
+                        <prop key="helloWorld.do">helloWorldAction</prop>
+                    </props>
+                </property>
+      </bean>
+    --> 
+   <!--配置视图-->
+   <!--   
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass">
+            <value>org.springframework.web.servlet.view.InternalResourceView</value>
+        </property>
+    </bean>
+ -->
+   <!--指定控制器的实现类，并且配置其参数的值-->
+   <!--  <bean id="helloWorldAction" class="com.examp.ch23.HelloWorldAction">
+        <property name="helloWorld">
+            <value>Hello Spring World!</value>
+        </property>
+        <property name="viewPage">
+            <value>sayHello.jsp</value>
+        </property>
+    </bean>
+  --> 
+    
+ <!-- Test3 在同一个控制器内测试多个方法  方法一
+    <bean id="userController" class="com.lr.util.MemberAction"/>
+	<bean id="simpleUrlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="/add.do">userController</prop>
+				<prop key="/remove.do">userController</prop>
+			</props>
+		</property>
+	</bean>
+  -->
+    
+    
+		<context:annotation-config />
+     	<!-- 把标记了@Controller注解的类转换为bean -->  
+      	<context:component-scan base-package="com.sx.controller" />  
+  		<!-- 启动Spring MVC的注解功能，完成请求和注解POJO的映射 -->  
+      	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />  
+     
+       <!-- 对模型视图名称的解析，即在模型视图名称添加前后缀 -->  
+       <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"  
+          p:prefix="/" p:suffix=".jsp" />  
+        
+       <bean id="multipartResolver"  
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver"  
+          p:defaultEncoding="utf-8" />  
+</beans> 

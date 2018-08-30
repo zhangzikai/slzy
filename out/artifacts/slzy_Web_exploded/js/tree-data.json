@@ -1,0 +1,62 @@
+[{
+    "text":"业务图层",
+    "id":"businessLayer",
+    "checked": true,
+    "children":[{
+        "text":"小班",
+        "id":"J2210000JB2012XBM",
+        "leaf":true,
+        "checked": true,
+        "iconCls":""
+    },{
+        "text":"林带",
+        "id":"J2210000JB2012XBM",
+        "leaf":true,
+        "checked": true,
+        "iconCls":""
+    }]
+},{
+    "text":"基础图层",
+    "checked": false,
+    "children":[{
+        "text":"影像",
+        "id":"elevation1",
+        "leaf":true,
+        "checked": false
+    },{
+        "text":"地形",
+        "id":"elevation2",
+        "leaf":true,
+        "checked": false
+    },{
+        "text":"区划",
+        "id":"elevation3",
+        "leaf":true,
+        "checked": false
+    }]
+},{
+    "text":"行政区划图层",
+    "id":"districtLayer",
+    "checked": true,
+    "children":[{
+        "text":"省份",
+        "id":"sheng",
+        "leaf":true,
+        "checked": true
+    },{
+        "text":"城市",
+        "id":"shi",
+        "leaf":true,
+        "checked": true
+    },{
+        "text":"区县",
+        "id":"xian",
+        "leaf":true,
+        "checked": true
+    },{
+        "text":"乡镇",
+        "id":"xiang",
+        "leaf":true,
+        "checked": true
+    }]
+}]

@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//WebRoot/js/3d/AirspaceTool.js=UTF-8
+encoding//WebRoot/js/3d/BaseTool.js=UTF-8
+encoding//WebRoot/js/3d/DrawTool.js=UTF-8
+encoding//WebRoot/js/3d/InitLayers.js=UTF-8
+encoding//WebRoot/js/3d/KmlFiles.js=UTF-8
+encoding//WebRoot/js/3d/MarkerTool.js=UTF-8
+encoding//WebRoot/js/3d/MeasureTool.js=UTF-8
+encoding//WebRoot/js/3d/ModelTool.js=UTF-8
+encoding//WebRoot/js/3d/Window.js=UTF-8
+encoding//WebRoot/js/3d/WorldModel.js=UTF-8
+encoding//src/com/sx/util/DataGridModel.java=UTF-8
+encoding//src/com/sx/util/Page.java=UTF-8
+encoding//src/com/sx/util/ParseProperties.java=UTF-8
+encoding/<project>=UTF-8

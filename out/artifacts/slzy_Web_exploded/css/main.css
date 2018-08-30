@@ -1,0 +1,93 @@
+/* 右侧搜索结果记录样式 */
+.queryResultRecord{
+	padding:5px 0px 4px 8px;
+	border-bottom:1px solid #CCFFFF;
+	cursor:hand;
+	height:70px;
+}
+.recordTitle{
+	display:inline;
+	height:34px;
+	padding:2px 0px 0px 2px;
+	font-size:15px;
+	color:#00A0EA;
+	font-weight:bold;
+}
+/* 右侧信息栏 */
+#popForm{ height:100%; background-color: #FFFFCC;}
+#info{height:100%; overflow:auto;}
+#popDivInsert{
+	position:absolute;
+	top:0px,left:0px;
+	height:100%;
+	border:1px solid blue;
+	
+}
+
+#popDivInsert,#popDivDelete {
+	position: absolute;
+	visibility: hidden;
+	overflow: hidden;
+	border: 2px solid #AEBBCA;
+	background-color: #EEF1F8;
+	cursor: move;
+	padding: 1px;
+	z-index: 4000;
+}
+
+#popTitle {
+	background: #9DACBF;
+	height: 20px;
+	line-height: 20px;
+	padding: 1px;
+}
+
+#popForm {
+	padding: 2px;
+	/* 		padding-left: 15px; */
+}
+
+.title_left {
+	font-weight: bold;
+	padding-left: 5px;
+	float: left;
+}
+
+.title_right {
+	float: right;
+}
+
+#popTitle .title_right a {
+	color: #000;
+	text-decoration: none;
+}
+
+#popTitle .title_right a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+
+.x-form-file-wrap {
+    position: relative;
+    height: 22px;
+}
+.x-form-file-wrap .x-form-file {
+	position: absolute;
+	right: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+    height: 22px;
+}
+.x-form-file-wrap .x-form-file-btn {
+	position: absolute;
+	right: 0;
+	z-index: 1;
+}
+.x-form-file-wrap .x-form-file-text {
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    color: #777;
+}

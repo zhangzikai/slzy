@@ -1,0 +1,12 @@
+xiabandi:kuergan_Hydrology	kuergan_Hydrology	水文站
+xiabandi:kuergan_Rainfall	kuergan_Rainfall        雨量站
+xiabandi:kuergan_Reservoir	kuergan_Reservoir	水库
+xiabandi:kuergan_level		kuergan_level	        水位站
+xiabandi:kuergan_power		kuergan_power	           电站 
+xiabandi:kuergan_weather	kuergan_weather	         气象站
+
+xiabandi:kuergan_water		kuergan_water	       河流
+xiabandi:kuergan_road	kuergan_road	          道路
+xiabandi:kuergan_town	kuergan_town	           乡镇
+xiabandi:kuergan_village	kuergan_village	       村庄
+xiabandi:kuergan_County1	kuergan_County1        县界

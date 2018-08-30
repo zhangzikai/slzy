@@ -1,0 +1,78 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="slzy:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/slzy_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="slzy/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="slzy" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="antlr-2.7.6.jar" module-name="slzy" />
+          <element id="library" level="module" name="asm-3.3.jar" module-name="slzy" />
+          <element id="library" level="module" name="c3p0-0.9.1.2.jar" module-name="slzy" />
+          <element id="library" level="module" name="cglib-2.2.jar" module-name="slzy" />
+          <element id="library" level="module" name="com.springsource.net.sf.cglib-2.2.0.jar" module-name="slzy" />
+          <element id="library" level="module" name="com.springsource.org.aopalliance-1.0.0.jar" module-name="slzy" />
+          <element id="library" level="module" name="com.springsource.org.apache.commons.fileupload-1.2.0.jar" module-name="slzy" />
+          <element id="library" level="module" name="com.springsource.org.apache.commons.httpclient-3.1.0.jar" module-name="slzy" />
+          <element id="library" level="module" name="com.springsource.org.apache.commons.logging-1.1.1.jar" module-name="slzy" />
+          <element id="library" level="module" name="com.springsource.org.apache.log4j-1.2.15.jar" module-name="slzy" />
+          <element id="library" level="module" name="com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="commons-beanutils.jar" module-name="slzy" />
+          <element id="library" level="module" name="commons-codec-1.8.jar" module-name="slzy" />
+          <element id="library" level="module" name="commons-collections.jar" module-name="slzy" />
+          <element id="library" level="module" name="commons-dbcp.jar" module-name="slzy" />
+          <element id="library" level="module" name="commons-lang-2.4.jar" module-name="slzy" />
+          <element id="library" level="module" name="commons-logging.jar" module-name="slzy" />
+          <element id="library" level="module" name="commons-pool.jar" module-name="slzy" />
+          <element id="library" level="module" name="dom4j-1.6.1.jar" module-name="slzy" />
+          <element id="library" level="module" name="ehcache-1.2.3.jar" module-name="slzy" />
+          <element id="library" level="module" name="ejb3-persistence.jar" module-name="slzy" />
+          <element id="library" level="module" name="ezmorph-1.0.6.jar" module-name="slzy" />
+          <element id="library" level="module" name="hibernate-annotations.jar" module-name="slzy" />
+          <element id="library" level="module" name="hibernate-commons-annotations.jar" module-name="slzy" />
+          <element id="library" level="module" name="hibernate-entitymanager.jar" module-name="slzy" />
+          <element id="library" level="module" name="hibernate-validator.jar" module-name="slzy" />
+          <element id="library" level="module" name="hibernate3.jar" module-name="slzy" />
+          <element id="library" level="module" name="iText-2.1.7.jar" module-name="slzy" />
+          <element id="library" level="module" name="iTextAsian.jar" module-name="slzy" />
+          <element id="library" level="module" name="jackson-all-1.8.9.jar" module-name="slzy" />
+          <element id="library" level="module" name="javassist-3.9.0.GA.jar" module-name="slzy" />
+          <element id="library" level="module" name="json-lib-2.2.3-jdk15.jar" module-name="slzy" />
+          <element id="library" level="module" name="jsoup-1.6.1.jar" module-name="slzy" />
+          <element id="library" level="module" name="jstl.jar" module-name="slzy" />
+          <element id="library" level="module" name="jta-1.1.jar" module-name="slzy" />
+          <element id="library" level="module" name="jts-1.14.jar" module-name="slzy" />
+          <element id="library" level="module" name="log4j-1.2.14.jar" module-name="slzy" />
+          <element id="library" level="module" name="mysql-connector-java-5.0.4-bin.jar" module-name="slzy" />
+          <element id="library" level="module" name="ojdbc14.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.aop-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.asm-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.aspects-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.beans-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.context-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.core-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.expression-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.instrument-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.instrument.tomcat-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.jdbc-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.jms-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.orm-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.oxm-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.transaction-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.web-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.web.portlet-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.web.servlet-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="org.springframework.web.struts-3.0.5.RELEASE.jar" module-name="slzy" />
+          <element id="library" level="module" name="persistence.jar" module-name="slzy" />
+          <element id="library" level="module" name="poi-3.8-20120326.jar" module-name="slzy" />
+          <element id="library" level="module" name="servlet-api.jar" module-name="slzy" />
+          <element id="library" level="module" name="slf4j-api-1.5.8.jar" module-name="slzy" />
+          <element id="library" level="module" name="slf4j-log4j12-1.5.8.jar" module-name="slzy" />
+          <element id="library" level="module" name="standard.jar" module-name="slzy" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

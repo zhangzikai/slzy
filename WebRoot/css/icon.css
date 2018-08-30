@@ -1,0 +1,231 @@
+@CHARSET "UTF-8";
+.hover { cursor:pointer;}
+.settings {
+	background-image: url(../images/viewlib/folder_wrench.png);
+}
+
+.nav {
+	background-image: url(../images/TCKZ.png);
+}
+
+.layer {
+	background-image: url(../images/SZYYWGL.png);
+}
+
+.Weather {
+	background-image: url(../images/TQYB.png);
+}
+
+.Manage {
+	background-image: url(../images/SJKGL.png);
+}
+
+.System {
+	background-image: url(../images/XTGL.png);
+}
+.Scene{
+	background-image: url(../images/CJLL.png);
+}
+.Flight{
+	background-image: url(../images/FXKZ.png);
+}
+
+.Space{
+	background-image: url(../images/KJFX.png);
+}
+
+.search {
+	background-image: url(../images/SZYXXCX.png);
+}
+
+.spatial {
+	background-image: url(../images/SZYZHTJ.png) !important;
+}
+
+.infor {
+	background-image: url(../images/YJYJXXFW.png);
+}
+
+.move {
+	background-image: url(../images/JXJC.png) !important;
+}
+
+.control {
+	background-image: url(../images/SPJK.png);
+}
+
+.pan {
+	background-image: url(../images/maplib/pan.gif) !important;
+}
+
+.zin {
+	background-image: url(../images/maplib/zin.gif) !important;
+}
+
+.fly {
+	background-image: url(../images/maplib/flyg.gif) !important;
+}
+
+.zout {
+	background-image: url(../images/maplib/zout.gif) !important;
+}
+
+.selectByPnt {
+	background-image:url(../images/viewlib/selectByPnt.gif) !important;
+}
+
+.selectByPolygon {
+	background-image: url(../images/viewlib/selectByPolygon.gif) !important;
+}
+
+.resetmap {
+	background-image: url(../images/maplib/resetmap.gif) !important;
+}
+
+.measure {
+	background-image: url(../images/maplib/length.gif) !important;
+}
+
+.area {
+	background-image: url(../images/maplib/area.gif) !important;
+}
+
+.high {
+	background-image: url(../images/maplib/high.gif) !important;
+}
+
+.clear {
+	background-image: url(../images/maplib/clear.png) !important;
+}
+.tool{
+	background-image: url(../images/maplib/gongju.gif) !important;
+}
+.thematicmap{
+	background-image: url(../images/formsManagement.png) !important;
+}
+.fly {
+	background-image: url(../images/maplib/flyg.gif) !important;
+}
+
+.zhuji {
+	background-image: url(../images/maplib/zhuji.gif) !important;
+}
+.load{
+	background-image: url(../images/maplib/load.png) !important;
+}
+.fullScreen{
+	background-image: url(../images/fullScreen.png) !important;
+}
+
+.upload-icon {
+  background: url('../images/icon/image_add.png') no-repeat 0 0 !important;
+}
+
+.add-icon {
+  background: url('../images/icon/add.gif') no-repeat 0 0 !important;
+}
+
+.delete-icon {
+  background: url('../images/icon/delete.gif') no-repeat 0 0 !important;
+}
+
+.edit-icon {
+  background: url('../images/icon/edit.png') no-repeat 0 0 !important;
+}
+
+.cancel-icon {
+  background: url('../images/icon/cancel.png') no-repeat 0 0 !important;
+}
+
+.reset-icon {
+  background: url('../images/icon/reset.png') no-repeat 0 0 !important;
+}
+.layerControl{
+  margin-left:40%;
+  margin-top:0.3cm;
+  background: url('../images/header/layerControl.png') no-repeat 0 0 !important;
+}
+.dataQuery{
+  margin-left:40%;
+  margin-top:0.3cm;
+  background: url('../images/header/dataQuery.png') no-repeat 0 0 !important;
+}
+.xbconfig{
+  margin-left:4%;
+  margin-top:0.1cm;
+  background: url('../images/header/dataQuery.png') no-repeat 0 0 !important;
+}
+.userconfig{
+  margin-left:4%;
+  margin-top:0.1cm;
+  background: url('../images/header/layerControl.png') no-repeat 0 0 !important;
+}
+.roleconfig{
+  margin-left:4%;
+  margin-top:0.1cm;
+  background: url('../images/header/manu_curr.png') no-repeat 0 0 !important;
+}
+.mapTools{
+  margin-left:40%;
+  margin-top:0.3cm;
+  background: url('../images/header/mapTools.png') no-repeat 0 0 !important;
+}
+.mapTools{
+  margin-left:40%;
+  margin-top:0.3cm;
+  background: url('../images/header/mapTools.png') no-repeat 0 0 !important;
+}
+.mapTools{
+  margin-left:40%;
+  margin-top:0.3cm;
+  background: url('../images/header/mapTools.png') no-repeat 0 0 !important;
+}
+.mapTools{
+  margin-left:40%;
+  margin-top:0.3cm;
+  background: url('../images/header/mapTools.png') no-repeat 0 0 !important;
+}
+
+.stastics{
+  margin-left:40%;
+  margin-top:0.3cm;
+  background: url('../images/header/stastics.png') no-repeat 0 0 !important;
+}
+.themeMap{
+  margin-left:40%;
+  margin-top:0.3cm;
+  background: url('../images/header/themeMap.png') no-repeat 0 0 !important;
+}
+.themeconfig{
+  margin-left:4%;
+  margin-top:0.1cm;
+  background: url('../images/header/themeMap.png') no-repeat 0 0 !important;
+}
+.configs{
+  margin-left:40%;
+  margin-top:0.3cm;
+  background: url('../images/header/configs.png') no-repeat 0 0 !important;
+}
+.refresh-icon {
+  background: url('../images/icon/refresh.png') no-repeat 0 0 !important;
+}
+
+.query-icon{background-image:url(../images/icon/query.gif)!important;}
+
+.accept-icon {background: url('../images/icon/accept.png') no-repeat 0 0 !important;}
+.excel-icon {background: url('../images/icon/excel.png') no-repeat 0 0 !important;}
+
+
+.userSuit{background-image: url("../images/icon/user_suit.png") !important;}
+.user{background-image: url("../images/icon/group.png") !important;}
+.info-icon{background-image: url("../images/icon/page_white_text.png") !important;}
+.batchdelete{background:url("../images/icon/page_white_delete.png") no-repeat!important;}
+.close-icon{background:url("../images/icon/close.png") no-repeat!important;}
+
+.role{background-image: url("../images/icon/key.png") !important;}
+
+.icon-expand-all {background-image: url(../images/icon/expand-all.gif) !important;}
+.icon-collapse-all {background-image: url(../images/icon/collapse-all.gif) !important;}
+.right{background-image: url("../images/icon/lock.png") !important;}
+
+
